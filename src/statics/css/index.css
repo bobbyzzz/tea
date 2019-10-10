@@ -1,0 +1,363 @@
+.indexPage {
+  width: 1366px;
+  margin: 0 auto;
+}
+.indexPage .el-carousel .banner {
+  width: 100%;
+  position: relative;
+}
+.indexPage .el-carousel .banner .bgcPic {
+  margin-left: -300px;
+}
+.indexPage .el-carousel__item:nth-of-type(1) .banner .smallPic {
+  position: absolute;
+  top: 30px;
+  right: 180px;
+  z-index: 2;
+}
+.indexPage .el-carousel__item:nth-of-type(1) .banner .logoPic,
+.indexPage .el-carousel__item:nth-of-type(1) .banner .text1,
+.indexPage .el-carousel__item:nth-of-type(1) .banner .text2,
+.indexPage .el-carousel__item:nth-of-type(1) .banner .text3 {
+  position: absolute;
+  z-index: 3;
+}
+.indexPage .el-carousel__item:nth-of-type(1) .banner .logoPic {
+  top: 260px;
+  right: 295px;
+}
+.indexPage .el-carousel__item:nth-of-type(1) .banner .text1 {
+  top: 155px;
+  right: 190px;
+  font-size: 16px;
+  width: 20px;
+  font-weight: 700;
+}
+.indexPage .el-carousel__item:nth-of-type(1) .banner .text2 {
+  top: 80px;
+  right: 260px;
+  font-size: 16px;
+  width: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+.indexPage .el-carousel__item:nth-of-type(1) .banner .text3 {
+  top: 45px;
+  right: 285px;
+  font-size: 26px;
+  width: 40px;
+  font-weight: 500;
+}
+.indexPage .el-carousel__item:nth-of-type(2) .banner .smallPic {
+  position: absolute;
+  top: 160px;
+  right: 170px;
+  z-index: 2;
+}
+.indexPage .el-carousel__item:nth-of-type(2) .banner .text2,
+.indexPage .el-carousel__item:nth-of-type(2) .banner .text3,
+.indexPage .el-carousel__item:nth-of-type(2) .banner .text4 {
+  font-weight: 500;
+  position: absolute;
+  z-index: 3;
+}
+.indexPage .el-carousel__item:nth-of-type(2) .banner .text1 {
+  position: absolute;
+  z-index: 3;
+  top: 165px;
+  right: 200px;
+  font-size: 28px;
+  font-weight: 300;
+}
+.indexPage .el-carousel__item:nth-of-type(2) .banner .text2 {
+  top: 225px;
+  right: 200px;
+  font-size: 44px;
+}
+.indexPage .el-carousel__item:nth-of-type(2) .banner .text3 {
+  top: 285px;
+  right: 250px;
+  font-size: 30px;
+}
+.indexPage .el-carousel__item:nth-of-type(2) .banner .text4 {
+  top: 325px;
+  right: 200px;
+  font-size: 20px;
+}
+.indexPage .showShop {
+  width: 100%;
+  margin-top: 90px;
+  padding: 0 150px;
+}
+.indexPage .showShop ul {
+  display: flex;
+  justify-content: space-between;
+}
+.indexPage .showShop ul li {
+  padding: 10px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.indexPage .showShop ul li .shapName {
+  font-size: 24px;
+  padding: 40px;
+  text-align: center;
+  font-weight: 700;
+  font-family: '楷体';
+}
+.indexPage .middlePic {
+  width: 100%;
+  overflow: hidden;
+}
+.indexPage .middlePic img {
+  margin-left: -300px;
+}
+.indexPage .greatTea {
+  width: 100%;
+}
+.indexPage .greatTea ul li {
+  height: 600px;
+  padding: 105px 150px;
+  position: relative;
+}
+.indexPage .greatTea li:nth-of-type(1) .bigImg {
+  position: absolute;
+  top: 105px;
+  right: 150px;
+}
+.indexPage .greatTea li:nth-of-type(1) .txt1,
+.indexPage .greatTea li:nth-of-type(1) .txt2,
+.indexPage .greatTea li:nth-of-type(1) .txt3,
+.indexPage .greatTea li:nth-of-type(1) .txt4,
+.indexPage .greatTea li:nth-of-type(1) .txt5 {
+  width: 15px;
+  position: absolute;
+  font-size: 14px;
+  top: 105px;
+}
+.indexPage .greatTea li:nth-of-type(1) .txt1 {
+  left: 450px;
+}
+.indexPage .greatTea li:nth-of-type(1) .txt2 {
+  left: 410px;
+}
+.indexPage .greatTea li:nth-of-type(1) .txt3 {
+  left: 370px;
+}
+.indexPage .greatTea li:nth-of-type(1) .txt4 {
+  left: 330px;
+}
+.indexPage .greatTea li:nth-of-type(1) .txt5 {
+  left: 290px;
+}
+.indexPage .greatTea li:nth-of-type(1) .lineImg {
+  position: absolute;
+  top: 105px;
+  left: 250px;
+}
+.indexPage .greatTea li:nth-of-type(1) .title {
+  position: absolute;
+  top: 105px;
+  left: 150px;
+  width: 35px;
+  font-size: 54px;
+  font-family: '楷体';
+}
+.indexPage .greatTea li:nth-of-type(1) .imgGreatLogo {
+  position: absolute;
+  top: 355px;
+  left: 155px;
+}
+.indexPage .greatTea li:nth-of-type(2) .bigImg {
+  position: absolute;
+  top: 105px;
+  left: 150px;
+}
+.indexPage .greatTea li:nth-of-type(2) .txt1,
+.indexPage .greatTea li:nth-of-type(2) .txt2,
+.indexPage .greatTea li:nth-of-type(2) .txt3,
+.indexPage .greatTea li:nth-of-type(2) .txt4,
+.indexPage .greatTea li:nth-of-type(2) .txt5 {
+  width: 15px;
+  position: absolute;
+  font-size: 14px;
+  top: 105px;
+}
+.indexPage .greatTea li:nth-of-type(2) .txt1 {
+  right: 450px;
+}
+.indexPage .greatTea li:nth-of-type(2) .txt2 {
+  right: 410px;
+}
+.indexPage .greatTea li:nth-of-type(2) .txt3 {
+  right: 370px;
+}
+.indexPage .greatTea li:nth-of-type(2) .txt4 {
+  right: 330px;
+}
+.indexPage .greatTea li:nth-of-type(2) .txt5 {
+  right: 290px;
+}
+.indexPage .greatTea li:nth-of-type(2) .lineImg {
+  position: absolute;
+  top: 105px;
+  right: 250px;
+}
+.indexPage .greatTea li:nth-of-type(2) .title {
+  position: absolute;
+  top: 105px;
+  right: 150px;
+  width: 35px;
+  font-size: 54px;
+  font-family: '楷体';
+}
+.indexPage .greatTea li:nth-of-type(2) .imgGreatLogo {
+  position: absolute;
+  top: 355px;
+  right: 135px;
+}
+.indexPage .middlePic2 {
+  width: 100%;
+  position: relative;
+  margin-bottom: 100px;
+  overflow: hidden;
+}
+.indexPage .middlePic2 img {
+  margin-left: -300px;
+}
+.indexPage .middlePic2 div {
+  width: 540px;
+  height: 170px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: space-between;
+}
+.indexPage .middlePic2 div p {
+  padding: 0 10px;
+  width: 50px;
+  font-family: '楷体';
+  font-weight: 700;
+  color: #6b6b6b;
+  font-size: 14px;
+}
+.indexPage .middlePic2 div p:nth-of-tpye(1),
+.indexPage .middlePic2 div p:nth-of-tpye(6),
+.indexPage .middlePic2 div p:nth-of-tpye(11) {
+  width: 15px;
+}
+.indexPage .shopList {
+  width: 100%;
+  padding: 0 124px;
+  margin-bottom: 100px;
+}
+.indexPage .shopList ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.indexPage .shopList ul li {
+  padding: 10px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+.indexPage .shopList ul li .iconPic {
+  position: relative;
+}
+.indexPage .shopList ul li .iconPic .icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #484848;
+  text-align: center;
+  line-height: 65px;
+  opacity: 0;
+  transition: all 1s;
+}
+.indexPage .shopList ul li .iconPic .icon i {
+  font-size: 20px;
+  color: #fbfbfb;
+}
+.indexPage .shopList ul li .iconPic:hover .icon {
+  opacity: 1;
+}
+.indexPage .shopList ul li p {
+  text-align: center;
+  padding: 10px 10px 0 10px;
+  font-size: 14px;
+}
+.indexPage .shopList ul li p:nth-of-type(2) {
+  color: #f13a3a;
+  font-weight: 700;
+}
+.indexPage .shopList ul .info {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+.indexPage .shopList ul .info .shopPic .shopBigPic {
+  padding: 40px 90px 85px 30px;
+  cursor: pointer;
+}
+.indexPage .shopList ul .info .shopInfo .titleName {
+  font-size: 30px;
+  border-bottom: 1px solid #ccc;
+}
+.indexPage .shopList ul .info .shopInfo .money {
+  color: #ccc;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.indexPage .shopList ul .info .shopInfo .money span {
+  color: red;
+}
+.indexPage .shopList ul .info .shopInfo .money span:nth-of-type(2) {
+  font-size: 20px;
+}
+.indexPage .middlePic3 {
+  width: 100%;
+  position: relative;
+  margin-bottom: 100px;
+  margin-top: 90px;
+  overflow: hidden;
+}
+.indexPage .middlePic3 img {
+  margin-left: -300px;
+}
+.indexPage .middlePic3 div {
+  width: 240px;
+  height: 110px;
+  position: absolute;
+  top: 50%;
+  right: 50px;
+  transform: translateY(-50%);
+}
+.indexPage .middlePic3 div p {
+  color: #6b6b6b;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+}
+.indexPage .middlePic3 div p:nth-of-type(1) {
+  color: #000;
+  font-size: 36px;
+  font-family: '楷体';
+  font-weight: 700;
+  padding: 30px 0;
+}
+.indexPage .middlePic3 div p:nth-of-type(1) span {
+  color: #a7550c;
+  font-family: '楷体';
+}

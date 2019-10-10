@@ -1,0 +1,167 @@
+.buyPage {
+    width: 1366px;
+    margin: 0 auto;
+
+    .el-carousel {
+
+        .banner {
+            width: 100%;
+            position: relative;
+
+            .bgcPic {
+                margin-left: -300px;
+            }
+
+        }
+    }
+
+    .el-carousel__item:nth-of-type(1) .banner {
+        .smallPic {
+            position: absolute;
+            top: 30px;
+            right: 180px;
+            z-index: 2;
+        }
+
+        .logoPic,
+        .text1,
+        .text2,
+        .text3 {
+            position: absolute;
+            z-index: 3;
+        }
+
+        .logoPic {
+            top: 260px;
+            right: 295px;
+        }
+
+        .text1 {
+            top: 155px;
+            right: 190px;
+            font-size: 16px;
+            width: 20px;
+            font-weight: 700;
+        }
+
+        .text2 {
+            top: 80px;
+            right: 260px;
+            font-size: 16px;
+            width: 20px;
+            font-weight: 700;
+            text-align: center;
+        }
+
+        .text3 {
+            top: 45px;
+            right: 285px;
+            font-size: 26px;
+            width: 40px;
+            font-weight: 500;
+        }
+    }
+
+    .el-carousel__item:nth-of-type(2) .banner {
+        .smallPic {
+            position: absolute;
+            top: 160px;
+            right: 170px;
+            z-index: 2;
+        }
+
+        .text2,
+        .text3,
+        .text4 {
+            font-weight: 500;
+            position: absolute;
+            z-index: 3;
+        }
+
+        .text1 {
+            position: absolute;
+            z-index: 3;
+            top: 165px;
+            right: 200px;
+            font-size: 28px;
+            font-weight: 300;
+        }
+
+        .text2 {
+            top: 225px;
+            right: 200px;
+            font-size: 44px;
+        }
+
+        .text3 {
+            top: 285px;
+            right: 250px;
+            font-size: 30px;
+        }
+
+        .text4 {
+            top: 325px;
+            right: 200px;
+            font-size: 20px;
+        }
+    }
+
+    .buyShop {
+        padding: 100px 125px;
+
+        .shopCard {
+            display: flex;
+
+            .shopCard-left {
+                flex: 1;
+                background-color: #fff;
+                text-align: center;
+            }
+
+            .shopCard-right {
+                flex: 1;
+                
+                .teaName{
+                    font-size: 32px;
+                    font-family: '楷体';
+                }
+                .price{
+                    font-size: 16px;
+                    color: #ccc;
+                    font-family: '楷体';
+                    span:nth-of-type(1){
+                        color: red;
+                        font-size: 18px;
+                    }
+                    span:nth-of-type(2){
+                        color: red;
+                        font-size: 38px;
+                    }
+                }
+                .phone{
+                    width: 200px;
+                    border: 1px solid red;
+                    border-radius: 10px;
+                    padding: 10px 30px;
+                    font-size: 18px;
+                    color: red;
+                    margin-top: 20px;
+                }
+            }
+        }
+        .infoList{
+            width: 100%;
+            border: 1px solid #ccc;
+            margin-top: 80px;
+            p{
+                width: 160px;
+                color: red;
+                border-top:3px solid red;
+                padding: 20px 40px;
+                font-size: 16px;
+                font-family: '楷体'; 
+                text-align: center;
+            }
+        }
+    }
+}

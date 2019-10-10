@@ -1,0 +1,88 @@
+.romanticTea {
+  width: 1366px;
+  margin: 0 auto;
+}
+.romanticTea .banner {
+  width: 100%;
+  margin-bottom: 100px;
+  overflow: hidden;
+}
+.romanticTea .banner img {
+  margin-left: -290px;
+}
+.romanticTea .shopList {
+  width: 100%;
+  padding: 0 124px;
+  margin-bottom: 100px;
+}
+.romanticTea .shopList ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.romanticTea .shopList ul li {
+  padding: 10px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+.romanticTea .shopList ul li .iconPic {
+  position: relative;
+}
+.romanticTea .shopList ul li .iconPic .icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #484848;
+  text-align: center;
+  line-height: 65px;
+  opacity: 0;
+  transition: all 1s;
+}
+.romanticTea .shopList ul li .iconPic .icon i {
+  font-size: 20px;
+  color: #fbfbfb;
+}
+.romanticTea .shopList ul li .iconPic:hover .icon {
+  opacity: 1;
+}
+.romanticTea .shopList ul li p {
+  text-align: center;
+  padding: 10px 10px 0 10px;
+  font-size: 14px;
+}
+.romanticTea .shopList ul li p:nth-of-type(2) {
+  color: #f13a3a;
+  font-weight: 700;
+}
+.romanticTea .shopList ul .info {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+.romanticTea .shopList ul .info .shopPic .shopBigPic {
+  padding: 40px 90px 85px 30px;
+  cursor: pointer;
+}
+.romanticTea .shopList ul .info .shopInfo .titleName {
+  font-size: 30px;
+  border-bottom: 1px solid #ccc;
+}
+.romanticTea .shopList ul .info .shopInfo .money {
+  color: #ccc;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.romanticTea .shopList ul .info .shopInfo .money span {
+  color: red;
+}
+.romanticTea .shopList ul .info .shopInfo .money span:nth-of-type(2) {
+  font-size: 20px;
+}

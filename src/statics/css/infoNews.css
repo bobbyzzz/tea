@@ -1,0 +1,39 @@
+.infoNews {
+  width: 1366px;
+  margin: 0 auto;
+}
+.infoNews .banner {
+  width: 100%;
+  margin-bottom: 100px;
+  overflow: hidden;
+}
+.infoNews .banner img {
+  margin-left: -290px;
+}
+.infoNews .main {
+  width: 100%;
+  padding: 0 20px;
+}
+.infoNews .main .content {
+  width: 100%;
+}
+.infoNews .main .content .title {
+  font-size: 34px;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  font-family: '楷体';
+}
+.infoNews .main .content .container {
+  text-align: center;
+  font-size: 14px;
+  padding: 80px 125px;
+}
+.infoNews .main .content .container img {
+  margin-bottom: 30px;
+}
+.infoNews .main .content .container p {
+  text-align-last: left;
+  font-family: '楷体';
+  line-height: 40px;
+  text-indent: 32px;
+}

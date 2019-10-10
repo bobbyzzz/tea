@@ -1,0 +1,35 @@
+.headerNav .w {
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.headerNav .w .logoName {
+  width: 130px;
+  margin-right: 300px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.headerNav .w .logoName span {
+  font-size: 30px;
+  color: #e4393c;
+}
+.headerNav .w .logoName span:nth-of-type(2) {
+  color: #cccccc;
+}
+.headerNav .w .nav {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+}
+.headerNav .w .nav p {
+  cursor: pointer;
+}
+.headerNav .w .nav p:hover {
+  color: #ff0000;
+}
+.headerNav .w .nav .active {
+  color: #ff0000;
+}

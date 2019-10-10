@@ -1,0 +1,108 @@
+.faceuptea {
+  width: 1366px;
+  margin: 0 auto;
+}
+.faceuptea .banner {
+  width: 100%;
+  margin-bottom: 100px;
+  position: relative;
+  overflow: hidden;
+}
+.faceuptea .banner img {
+  margin-left: -290px;
+}
+.faceuptea .banner .bannerInfo {
+  position: absolute;
+  top: 140px;
+  right: 230px;
+}
+.faceuptea .banner .bannerInfo p {
+  text-align: center;
+  font-size: 16px;
+  color: #3c3c3c;
+}
+.faceuptea .banner .bannerInfo p:nth-of-type(1) {
+  font-family: '楷体';
+  font-size: 42px;
+}
+.faceuptea .banner .bannerInfo p:nth-of-type(1) span {
+  font-family: '楷体';
+  font-size: 42px;
+  color: #d5336e;
+}
+.faceuptea .shopList {
+  width: 100%;
+  padding: 0 124px;
+  margin-bottom: 100px;
+}
+.faceuptea .shopList ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.faceuptea .shopList ul li {
+  padding: 10px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+.faceuptea .shopList ul li .iconPic {
+  position: relative;
+}
+.faceuptea .shopList ul li .iconPic .icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #484848;
+  text-align: center;
+  line-height: 65px;
+  opacity: 0;
+  transition: all 1s;
+}
+.faceuptea .shopList ul li .iconPic .icon i {
+  font-size: 20px;
+  color: #fbfbfb;
+}
+.faceuptea .shopList ul li .iconPic:hover .icon {
+  opacity: 1;
+}
+.faceuptea .shopList ul li p {
+  text-align: center;
+  padding: 10px 10px 0 10px;
+  font-size: 14px;
+}
+.faceuptea .shopList ul li p:nth-of-type(2) {
+  color: #f13a3a;
+  font-weight: 700;
+}
+.faceuptea .shopList ul .info {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+.faceuptea .shopList ul .info .shopPic .shopBigPic {
+  padding: 40px 90px 85px 30px;
+  cursor: pointer;
+}
+.faceuptea .shopList ul .info .shopInfo .titleName {
+  font-size: 30px;
+  border-bottom: 1px solid #ccc;
+}
+.faceuptea .shopList ul .info .shopInfo .money {
+  color: #ccc;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.faceuptea .shopList ul .info .shopInfo .money span {
+  color: red;
+}
+.faceuptea .shopList ul .info .shopInfo .money span:nth-of-type(2) {
+  font-size: 20px;
+}

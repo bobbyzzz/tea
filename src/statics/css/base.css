@@ -1,0 +1,137 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family:"SourceHanSansCN-Regular", "微软雅黑";
+    padding: 0;
+    margin: 0
+}
+
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+ul,
+li,
+ol {
+    list-style: none
+}
+
+a {
+    text-decoration: none
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+button,
+input {
+    outline: none;
+    border: none
+}
+
+html,
+body {
+    width: 100%;
+}
+
+body {
+    -webkit-text-size-adjust: 100%;
+    -webkit-overflow-scrolling: touch;
+    font-family: "SourceHanSansCN-Regular", "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", "Adobe 黑体 Std R", "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
+    font-family: "SourceHanSansCN-Regular", "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", "Adobe 黑体 Std R", "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
+    scrollbar-face-color: #FFFFFF;
+    -webkit-font-smoothing: antialiased;
+    background-color: #f8f8f8;
+    font-size: 12px;
+    /* transition: background-image .3s,background-color .3s;
+    transition-property: background-image, background-color;
+    transition-duration: 0.3s, 0.3s;
+    transition-timing-function: ease, ease;
+    transition-delay: 0s, 0s; */
+}
+
+ul,
+li,
+ol {
+    list-style: none
+}
+
+em,
+i {
+    font-style: normal
+}
+
+img {
+    border: 0;
+    vertical-align: middle
+}
+
+button {
+    cursor: pointer
+}
+
+button,
+input {
+    font-family: Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, sans-serif
+}
+
+.clearfix::after,
+.clearfix::before {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.mask {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 200;
+    background: rgba(0, 0, 0, 0.8)
+}
+
+.left {
+    float: left
+}
+
+.right {
+    float: right
+}
+
+.v-left {
+    text-align: left;
+}
+
+.v-center {
+    text-align: center;
+}
+
+.v-right {
+    text-align: right;
+}
+
+.w {
+    width: 930px;
+    margin: 0 auto;
+}
+
+#app {
+    margin: 0 auto;
+}
